@@ -1,0 +1,101 @@
+header {
+  background-color: #f5e9c9;
+  font-family: fantasy;
+}
+
+a {
+  color: lightblue;
+}
+a:hover {
+  color: rgb(40, 128, 223);
+}
+a:focus {
+  background-color: white;
+}
+
+.New-arrivals {
+  clear: both;
+}
+
+.About-me {
+  clear: both;
+}
+
+.must_tryy {
+  clear: both;
+}
+
+.must-try {
+  float: left;
+  border: 3px solid yellow;
+  width: 40%;
+  padding: 30px;
+  margin-top: 60px;
+  margin-left: 40px;
+}
+
+.must_tryy img {
+  width: 40%;
+  height: auto;
+  float: right;
+}
+
+.best-sellers img {
+  width: 100%;
+  max-width: 300px;
+  height: 250px;
+}
+
+.best-sellers {
+  clear: both;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.left {
+  float: left;
+  width: 45%;
+}
+.left img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.right {
+  float: right;
+  width: 45%;
+}
+
+img {
+  opacity: 0.5;
+}
+img:hover {
+  opacity: 1;
+}
+header img {
+  opacity: 1;
+}
+
+.My-hobby {
+  clear: both;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hobby {
+  width: 30%;
+}
+
+.hobby img {
+  width: 100px;
+  height: 120px;
+}
